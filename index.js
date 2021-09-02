@@ -33,6 +33,8 @@ function startGame() {
   sum = firstCard + secondCard;
 
   renderGame();
+  
+  hasBlackJack = false;
 }
 
 function renderGame() {
